@@ -17,7 +17,7 @@ type MongoDBLayer struct {
 	session *mgo.Session
 }
 
-func NewMongoDBLayer(connection string) (persistence.DatabaseHandler, error) {
+func NewMongoDBLayer(connection string) (*MongoDBLayer, error) {
 	s, err := mgo.Dial(connection)
 	return &MongoDBLayer{
 		session: s,

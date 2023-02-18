@@ -66,5 +66,6 @@ handler는 HTTP요청을 하나의 동작과 어떻게 연결시킬지에 대한
   
      ```
     
-    자세한 구현은 persistence(MSA의 지속성 계층)에서 살펴볼 예정이다!<br>
+    repository 게층은 persistence(MSA의 지속성 계층)에서 살펴볼 예정이다!<br>
+    이후, controller 계층을 handler 상세구현을 보면 된다.<br>
   
